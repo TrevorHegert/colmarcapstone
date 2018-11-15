@@ -3,6 +3,23 @@ html {
     font-size: 16px;
 }
 
+section {
+    display: flex;
+    width: 100%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.25;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.25rem
+
+}
+
 /*Header*/
 
 header {
@@ -10,6 +27,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
   }
   
   .headerlogo {
@@ -67,5 +87,44 @@ header {
       width: 100%;
   
     }
-  
-  }
+
+  }   
+
+
+section.learn {
+    top: 4rem;
+    background-color: lightgray;
+}
+
+.learn-image {
+    width: 60%;
+    height: auto;
+    margin: 6rem 1.5rem 2rem 1.5rem;
+}
+
+.learn-image img {
+    width: 100%;
+    height: auto;
+}
+
+.learn-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 30%;
+}
+
+.learn-content a {
+    margin-top: 1.5rem;
+    background-color: black;
+    width: 60%;
+    text-align: center;
+    color: white;
+    padding: .5rem 0 .5rem 0;
+}
+
+.learn-content h1 {
+    color: black;
+    margin-bottom: 1rem;
+}
