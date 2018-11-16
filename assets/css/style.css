@@ -177,3 +177,26 @@ section.learn {
           margin: 1.5rem auto 2rem auto;
       }
 }
+
+/*Information Block*/
+
+.practice {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1.5rem;
+}
+
+.practice img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.practice h2 {
+    margin-bottom: 1.5rem;
+}
+
+.practice h4 {
+    margin-bottom: 1.5rem;
+}
