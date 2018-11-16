@@ -249,3 +249,19 @@ section.learn {
     background-color: lightgray;
 
 }
+
+.mobileinfo {
+    display: none;
+}
+
+@media only screen and (max-width: 620px) {
+    .information {
+        display: none;
+    }
+
+    .mobileinfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
