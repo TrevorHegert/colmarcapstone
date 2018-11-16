@@ -197,6 +197,55 @@ section.learn {
     margin-bottom: 1.5rem;
 }
 
-.practice h4 {
+.practice p {
     margin-bottom: 1.5rem;
+}
+
+.practice .author {
+    font-size: .6rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.sidebar {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid lightgray;
+    margin: 2rem 0;
+}
+
+.sideblock {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.sidepic {
+    width: 35%;
+    height: auto;
+    padding: 1rem;
+}
+
+.sidetext {
+    width: 65%;
+}
+
+.sidetext h3 {
+    padding-bottom: .5rem;
+}
+
+.sidetext p {
+    padding-bottom: .75rem;
+}
+
+.sidetext a {
+    color: blue;
+    font-size: .75rem;
+}
+
+#greyblock {
+    background-color: lightgray;
+
 }
