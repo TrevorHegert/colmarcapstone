@@ -6,7 +6,6 @@ html body {
 
 section {
     display: flex;
-    width: 100%;
 }
 
 h1 { font-size: 2.25rem;  /* 16x2.25=36 */ 
@@ -282,4 +281,49 @@ section.learn {
         flex-direction: column;
         align-items: center;
     }
+}
+
+
+
+/*Classes Block*/
+
+.classes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.classes h1 {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.classes-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    }
+
+.class-holder {
+    max-width: 26%;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+.class-holder img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.class-holder .sidetext {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.class-holder p {
+    margin-top: .5rem;
 }
