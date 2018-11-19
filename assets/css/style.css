@@ -210,15 +210,14 @@ section.learn {
     width: 40%;
     display: flex;
     flex-direction: column;
-    border-left: 1px solid lightgray;
+    height: auto;
     margin: 2rem 0;
 }
 
 .sideblock {
     display: flex;
     align-items: center;
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+    border: 1px solid lightgray;
 }
 
 .sidepic {
@@ -298,7 +297,7 @@ section.learn {
     background-color: lightgray;
 }
 
-.classes h1 {
+.classes h2 {
     width: 100%;
     text-align: center;
     padding: 2rem 0;
@@ -359,4 +358,50 @@ section.learn {
         padding: 1rem 0 1rem 1rem;
         margin-bottom: .5rem;
     }
+}
+
+
+/* Thesis Block */
+
+.thesis {
+    flex-direction: column;
+    align-items: center;    
+}
+
+.thesis h2 {
+    margin: 2rem auto;
+}
+
+.thesis-content {
+    display: flex;
+}
+
+.thesis-main {
+    width: 60%;
+}
+
+.thesis-main video {
+    margin-left: 1.5rem;
+    width: 95%;
+}
+
+.thesistext{
+    margin: 1.5rem;
+}
+
+.thesisbar {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+}
+
+.thesisbar .sideblock img {
+    width: 35%;
+    height: auto;
+    padding: 1rem;
+}
+
+.video-mobile {
+    display: none;
 }
