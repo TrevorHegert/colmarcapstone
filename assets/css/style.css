@@ -254,6 +254,24 @@ section.learn {
     display: none;
 }
 
+.mobileinfo img {
+    height: auto;
+    margin: 1rem;
+}
+
+.mobiletext {
+    margin-left: 2rem;
+}
+
+.mobiletext h3, p {
+    padding-bottom: 1rem;
+}
+
+.mobiletext a {
+    color: blue;
+    padding-bottom: 2rem;
+}
+
 @media only screen and (max-width: 620px) {
     .information {
         display: none;
