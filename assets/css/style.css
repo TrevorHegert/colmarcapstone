@@ -365,7 +365,8 @@ section.learn {
 
 .thesis {
     flex-direction: column;
-    align-items: center;    
+    align-items: center;  
+    border-bottom: 1px solid lightgrey;  
 }
 
 .thesis h2 {
@@ -419,3 +420,30 @@ section.learn {
         margin: 2rem auto 1rem auto;
     }
 }
+
+
+/*Footer*/
+
+footer {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+  }
+  
+ footer p, a {
+     font-size: .75rem;
+ }
+  
+
+  @media only screen and (max-width: 620px) {
+    nav {
+      display: none;
+    }
+  
+    footer {
+      border-top: 0px solid lightgrey;
+      height: auto;
+      margin: 1rem auto;
+    }
+  }
